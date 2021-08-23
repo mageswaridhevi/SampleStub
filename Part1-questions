@@ -1,0 +1,12 @@
+What concerns would you have from a testing perspective?
+This feature talks about testing a battery and not having detailed information about what needs to be tested . Though testcases can be written from a overall perspective
+it would be better if we have some other information about the webservice like which HTTP method and the request header or query parameter and the response it is going to return .
+
+How would you go about tackling the QA for this work?
+I would start by having the happypath scenario of testing whether the battery is working or not . Would assume some scenarios and start creating the testcases and verify the behavior once i get any other information or SOA document for this webservice/API
+
+What sort of tests would be worth describing or worth automating?
+There is no point in automating the testcase since we don't have the complete picture of this webservice/API. Features that don't have complete requirement needs frequent change in the script , better to have some clarity before start automating it
+
+What tools would you use?
+Will be using postman to do the sanity check for the API and would start using ready api /soapui once we start automating it 
